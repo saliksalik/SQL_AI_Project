@@ -145,4 +145,4 @@ if st.button("Generate Query File"):
         for item in st.session_state.query_file:
             file.write(item + '\n\n\n')
 
-    st.success(f"Query file '{file_path}' generated successfully.")
+    st.success(f"Query file '{file_path}' generated successfully.") 
